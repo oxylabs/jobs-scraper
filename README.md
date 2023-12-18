@@ -2,16 +2,15 @@
 
 [![Oxylabs promo code](https://user-images.githubusercontent.com/129506779/250792357-8289e25e-9c36-4dc0-a5e2-2706db797bb5.png)](https://oxylabs.go2cloud.org/aff_c?offer_id=7&aff_id=877&url_id=112)
 
-Oxylabs’ [Jobs Scraper](https://oxylabs.io/products/scraper-api/web/jobs-scraper?utm_source=github&utm_medium=repositories&utm_campaign=product) is a data gathering solution allowing you to extract real-time information from an Jobs website effortlessly. This brief guide explains how an Jobs Scraper works and provides code examples to understand better how you can use it hassle-free.
+Oxylabs’ [Jobs Scraper](https://oxylabs.io/products/scraper-api/web/jobs-scraper?utm_source=github&utm_medium=repositories&utm_campaign=product) is a data gathering solution allowing you to extract real-time information from any jobs website effortlessly. This brief guide explains how a Jobs Scraper works and provides code examples to understand better how you can use it hassle-free.
 
 ### How it works
 
-You can get Jobs results by providing your own URLs to our service. We can return the HTML for any Jobs page you like.
+You can obtain job results by providing your own URLs to our service. We will return the HTML for any jobs page you specify.
 
 #### Python code example
 
-The example below illustrates how you can get HTML of Jobs page.
-
+The example below illustrates how you can obtain the HTML of a sample job posting from [indeed.com](https://www.indeed.com/companies/best-agriculture-companies)
 ```python
 import requests
 from pprint import pprint
